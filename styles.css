@@ -1,0 +1,26 @@
+body{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:darkgray;
+    text-align: center;
+}
+
+#alist{
+    color:azure;
+    padding: 20px;
+    list-style-type:none
+    ;
+}
+
+#flex{
+    display: grid;
+}
+
+#header{
+    font-style: italic;
+    color: black;
+}
+
+#para{
+    color: rebeccapurple;
+}
