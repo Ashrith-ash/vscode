@@ -1,0 +1,9 @@
+body{
+    color: brown;
+    background-color:ghostwhite;
+}
+
+h1,h3,h5,p{
+    margin: auto;
+    padding: 20px;
+}

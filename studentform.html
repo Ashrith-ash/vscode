@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stu.css">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class="header">
+        <h3>Student Registration form</h3>
+    </div>
+    <div class="container">
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" name="First Name"><br><br>
+        <label for="fname">Last Name</label>
+        <input type="text" name="Last Name"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="Email"><br><br>
+        <label for="mobile">Mobile</label>
+        <input type="number" name="Mobile"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="Date of Birth"><br><br>
+        <label for="Address">Address:</label>
+        <textarea rows="6" cols="60" name="Address"></textarea><br><br>
+        <label for="city">City</label>
+        <input type="text" name="City"><br><br>
+        <label for="pin">Area pin</label>
+        <input type="number" name="Area pin"><br><br>
+        <label for="state">State</label>
+        <input type="text" name="State"><br><br>
+        <label for="qualification">Qualification</label>
+        <select name="qualification">
+            <option value="" selected disabled hidden>Select qualification</option>
+            <option value="B. Tech">B. Tech</option>
+            <option value="M. Tech">M. Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="PhD">PhD</option>
+        </select><br><br>
+        <label for="Specilization">Specilization</label>
+        <input type="checkbox" name="CSBS" value="on">Computer Science and Business Systems<br>
+        <input type="checkbox" name="CSE" value="on">Computer Science and Engineering<br>
+        <input type="checkbox" name="IT" value="on">Information Technology<br>
+        <input type="checkbox" name="ECE" value="on">Electronics and Communication<br><br>
+        <label for="password">Password</label>
+        <input type="text" name="Password"><br><br>
+        <input type="button" name="Register" value="Register">
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    margin:auto;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    padding: 8px;
+	text-align: left;
+    background-color: cornflowerblue;
+}
+
+td{
+    padding: 8px;
+	text-align: left;
+    background-color: snow;
+}
+
+td:hover{
+   background-color: darkgray;
+}

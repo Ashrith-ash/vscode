@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Tables</title>
+</head>
+<body>
+  <table border="1" style="background-color: aliceblue;">
+   <caption>Order Summary</caption>
+   <tr>
+    <th align="left">Description</th>
+    <th align="right">Quantity</th>
+    <th align="right">Price</th>
+    <th align="left">Contents in box</th>
+   </tr>
+   <tr>
+    <td>iQOO 9 SE</td>
+    <td align="right">1</td>
+    <td align="right">Rs.34,999</td>
+    <td align="left" rowspan="5">
+     <table border="1">
+      <tr class="small"><td>Mobile</td><td>Dazzling sea Blue</td></tr>
+      <tr class="small"><td>Charger</td><td>80W</td></tr>
+      <tr class="small"><td>Converter</td><td>Type C to audiojack</td></tr>
+      <tr class="small"><td>User manual<td>Yes</td></tr>
+      <tr class="small"><td>Warranty</td><td>1 year</td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>Wilco Tampered Gorilla glass</td>
+    <td align="right">1</td>
+    <td align="right">Rs.399</td>
+   </tr>
+   <tr>
+    <td>Sony earphones</td>
+    <td align="right">1</td>
+    <td align="right">Rs.1299</td>
+   </tr>
+   <tr>
+    <td colspan="2" align="right">Shipping</td>
+    <td align="right">Rs.99</td>
+   </tr>
+   <tr>
+    <td colspan="2" align="right">Total</td>
+    <td align="right">Rs.36,796</td>
+   </tr>
+  </table>
+ </body>
+</html>
+</html>

@@ -1,0 +1,31 @@
+.header{
+    text-align: right;
+    margin-right: 40px;
+    color: red;
+    text-decoration: underline;
+
+}
+
+.container{
+    background-color: gainsboro;
+    max-width: 90%;
+    padding: 50px;
+    margin: 0 auto;
+}
+body{
+    background-color: white;
+}
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="button"] {
+    background-color: rgb(34, 225, 60);
+    padding: 5px 20px;
+}
